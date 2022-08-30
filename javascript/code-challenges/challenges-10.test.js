@@ -74,7 +74,7 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
   let tempArr = [];
-  for(let i in hoursOpen){
+  for(let i in stores[0]){
     tempArr.push(0);
   }
   for(let i in stores){
