@@ -191,7 +191,21 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
-  // Solution code here...
+  let lowestHeight = Infinity;
+
+  data.forEach((v) => {
+    if(parseInt(v.height) < lowestHeight){
+      lowestHeight = v.height;
+    }
+  });
+
+  let tempName = '';
+  data.forEach((v) => {
+    if(v.height === lowestHeight){
+      tempName = v.name;
+    }
+  });
+  return tempName;
 };
 
 /* ------------------------------------------------------------------------------------------------
