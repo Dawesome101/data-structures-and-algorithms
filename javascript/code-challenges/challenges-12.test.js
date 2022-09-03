@@ -72,8 +72,37 @@ Return either true or false.
 Note: if you ever need to validate an email using a regex in practice, the Internet has the actual regex you should use. It's many many lines long.
 ------------------------------------------------------------------------------------------------ */
 
-const validateEmail = (email) => {
+// test('It should match a basic email', () => {
+//   expect(validateEmail('joe@codefellows.com')).toBeTruthy();
+// });
 
+// test('It should match if the email contains a period', () => {
+//   expect(validateEmail('joe.schmoe@codefellows.net')).toBeTruthy();
+// });
+
+// test('It should match if the email contains other top-level domains', () => {
+//   expect(validateEmail('joe@codefellows.org')).toBeTruthy();
+// });
+
+// test('It should match if the email contains a period and other top-level domains', () => {
+//   expect(validateEmail('joe.schmoe@codefellows.net')).toBeTruthy();
+// });
+
+// test('It should fail things that aren\'t email addresses', () => {
+//   expect(validateEmail('justastring')).toBeFalsy();
+//   expect(validateEmail('missing@adomain')).toBeFalsy();
+//   expect(validateEmail('@noname.com')).toBeFalsy();
+//   expect(validateEmail('.@noname.com')).toBeFalsy();
+//   expect(validateEmail('nolastname.@sadness.net')).toBeFalsy();
+//   expect(validateEmail('canadaisnotreal@canada.ca')).toBeFalsy();
+//   expect(validateEmail('needadot@inthesecondpart')).toBeFalsy();
+//   expect(validateEmail('missing.atsymbol.net')).toBeFalsy();
+//   expect(validateEmail('looksgood@sofar.comohnowaitthisisbad')).toBeFalsy();
+//   expect(validateEmail('no.middle.names@foryou.com')).toBeFalsy();
+// });
+
+const validateEmail = (email) => {
+  return /^[a-zA-Z0-9]+\.?[a-zA-Z0-9]+@[a-zA-Z0-9]+.(com|org|net)$/g.test(email);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -118,7 +147,7 @@ Return either true or false.
 // expect(validatePhoneNumber('55_55_5555')).toBeFalsy();
 
 const validatePhoneNumber = (phoneNumber) => {
-
+  return /^(\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$/g.test(phoneNumber);
 };
 
 /* ------------------------------------------------------------------------------------------------
