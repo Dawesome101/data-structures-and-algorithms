@@ -78,7 +78,7 @@ For example, 'abcdefg' returns 'bdf'
 ------------------------------------------------------------------------------------------------ */
 
 const onlyOddChars = (str) => {
-  // Solution code here...
+  return str.split('').filter((v, i) => i % 2 === 1).join('');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,8 +87,15 @@ CHALLENGE 6
 Write a function named allHappy that takes in an array of strings and returns a Boolean indicating whether all those strings contain ":)".
 ------------------------------------------------------------------------------------------------ */
 
+// test('It should correctly assess whether all the strings are happy', () => {
+//   const words = ['things', 'apple (:)', ':)banana', 'missing that thing', 'cant:)aloupe'];
+
+//   expect(allHappy(words)).toStrictEqual(false);
+//   expect(allHappy(['apple (:)', ':)banana', 'cant:)aloupe'])).toStrictEqual(true);
+//   expect(allHappy([])).toStrictEqual(true);
+
 const allHappy = (arr) => {
-  // Solution code here...
+  return arr.every(str => str.includes(':)'));
 };
 
 /* ------------------------------------------------------------------------------------------------
