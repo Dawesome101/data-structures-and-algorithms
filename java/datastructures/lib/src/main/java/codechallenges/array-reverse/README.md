@@ -1,6 +1,6 @@
 # Whiteboard Practice
 
-[Back To Home](../../../../../../../README.md)
+[Back To Home](../../../../../../README.md)
 
 ## Reverse an array
 

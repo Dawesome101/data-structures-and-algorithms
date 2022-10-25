@@ -6,7 +6,8 @@
 
 ## Code Challenges
 
-[Arrays](./lib/src/main/java/codechallenges/array/array-reverse/README.md)
+[Array Reverse](./lib/src/main/java/codechallenges/array-reverse/README.md)
+[Array Insert Shift](/lib/src/main/java/codechallenges/array-insert-shift/README.md)
 
 ### Challenge 01
 
