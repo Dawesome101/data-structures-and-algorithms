@@ -2,8 +2,6 @@
 
 [Back To Home](../../../../../../README.md)
 
-## Reverse an array
-
 ### Whiteboard Process
 Problem Description:
 
