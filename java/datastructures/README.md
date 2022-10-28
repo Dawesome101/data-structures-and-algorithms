@@ -11,7 +11,7 @@ A collection of whiteboards working with data structures.
 
 ## Code Challenges
 
-[Linked Lists](./lib/src/main/java/codechallenges/linkedlist/README.md)
+[Linked Lists](./lib/src/main/java/datastructures/linkedlist/README.md)
 
 ### Challenge 01
 
