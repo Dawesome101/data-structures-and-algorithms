@@ -9,7 +9,7 @@ public class LinkedListTest
   @Test void testAMethod()
     {
       LinkedList sut = new LinkedList();
-
+      
       String testString01 = "{ 12 } ->{ -1 } ->{ 0 } ->{ 1 } ->{ 10 } -> NULL";
       int headTest = 12;
       int tailTest = 10;

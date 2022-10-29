@@ -18,6 +18,14 @@ public class LinkedList
   }
 
   public boolean includes(int value) {
+    if(head == null){
+      try {
+        throw new Exception("The list is empty. Add a new node using LinkedList.insert(int)");
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
+
     Node current = head;
 
     while (current != null){
@@ -37,6 +45,14 @@ public class LinkedList
 
   @Override
   public String toString() {
+    if(head == null){
+      try {
+        throw new Exception("The list is empty. Add a new node using LinkedList.insert(int)");
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
+
     Node current = head;
 
     StringBuilder stringBuilder = new StringBuilder();
