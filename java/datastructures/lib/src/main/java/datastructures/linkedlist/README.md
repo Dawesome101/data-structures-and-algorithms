@@ -4,8 +4,14 @@ An implementation of a [linked list](https://www.educative.io/blog/data-structur
 
 ## Index
 
-[Back To Home](../../../../../../../../README.md)
-[Back To Data Structures](../../../../../../README.md)
+- [Back To Home](../../../../../../../../README.md)
+- [Back To Data Structures](../../../../../../README.md)
+
+## Uses
+
+Constructor: `LinkedList()`
+
+`.insert(int)` Creates a new node at the head with the value that is passed in. Returns nothing.
 
 ## Whiteboard Example:
 
@@ -14,9 +20,7 @@ An implementation of a [linked list](https://www.educative.io/blog/data-structur
 
 ## Approach & Efficiency
 
-The classic approach to a linked list was used for this project with the addition of a length attribute.
-
-Nodes, Head, Tail and Length.
+The classic approach to a linked list was used for this project with the addition of a length attribute. The LinkedList is made up of a Head, Tail and Length and utilizes nodes to track data.
 
 ## Uses
 
@@ -41,13 +45,11 @@ Adds a new node with the given new value immediately before the first node that 
 - **.insertAfter(int value, int findValue)** *Return Type*: `void`
 Adds a new node with the given new value immediately after the first node that has the value specified
 
-## Assignment Instructions
-
-### Node
+### Node Specifications
 
 1. Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
 
-### Linked List
+### Linked List Specifications
 
 1. Create a Linked List class
    - Within your Linked List class, include a head property.
