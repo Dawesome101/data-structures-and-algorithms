@@ -7,14 +7,9 @@ An implementation of a [linked list](https://www.educative.io/blog/data-structur
 - [Back To Home](../../../../../../../../README.md)
 - [Back To Data Structures](../../../../../../README.md)
 
-## Uses
-
-Constructor: `LinkedList()`
-
-`.insert(int)` Creates a new node at the head with the value that is passed in. Returns nothing.
-
 ## Whiteboard Example:
 
+![LL Whiteboard](./LLWhiteBoard.png)
 ![linked list insertion](./LinkedList.png)
 
 ## Approach & Efficiency
