@@ -9,6 +9,7 @@ An implementation of a [linked list](https://www.educative.io/blog/data-structur
 
 ## Whiteboard Example:
 
+![LL Whiteboard](./LLWhiteBoard.png)
 ![linked list insertion](./LinkedList.png)
 
 ## Approach & Efficiency
